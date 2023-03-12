@@ -13,3 +13,5 @@
 3. Create Services (NodePort),
 1. voting-app
 2. result-app
+
+tip: if you want to deploy this app on an cloud provider you need to change the Port type from `NodePort` to `LoadBalancer` on voting service and result service.
